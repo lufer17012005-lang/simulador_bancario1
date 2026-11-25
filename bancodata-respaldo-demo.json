@@ -1,0 +1,34 @@
+{
+  "accounts": [
+    {"id":"1008","name":"Andrés Felipe Vargas","document":"0000001008","phone":"3000001008","email":"andres.demo@example.test","type":"Nómina","balance":5120000,"createdAt":"2026-01-05T09:00:00.000Z"},
+    {"id":"1007","name":"Camila Fernanda Ortiz","document":"0000001007","phone":"3000001007","email":"camila.demo@example.test","type":"Ahorros","balance":940000,"createdAt":"2026-01-06T09:00:00.000Z"},
+    {"id":"1006","name":"Santiago Herrera Gil","document":"0000001006","phone":"3000001006","email":"santiago.demo@example.test","type":"Corriente","balance":15750000,"createdAt":"2026-01-07T09:00:00.000Z"},
+    {"id":"1005","name":"Valeria Castro Pineda","document":"0000001005","phone":"3000001005","email":"valeria.demo@example.test","type":"Ahorros","balance":6920000,"createdAt":"2026-01-08T09:00:00.000Z"},
+    {"id":"1004","name":"Jorge Eliecer Mendoza","document":"0000001004","phone":"3000001004","email":"jorge.demo@example.test","type":"Nómina","balance":3480000,"createdAt":"2026-01-09T09:00:00.000Z"},
+    {"id":"1003","name":"María José Peña","document":"0000001003","phone":"3000001003","email":"maria.demo@example.test","type":"Ahorros","balance":8200000,"createdAt":"2026-01-10T09:00:00.000Z"},
+    {"id":"1002","name":"Laura Gómez","document":"0000001002","phone":"3000001002","email":"laura.demo@example.test","type":"Corriente","balance":12000000,"createdAt":"2026-01-11T09:00:00.000Z"},
+    {"id":"1001","name":"Carlos Rojas","document":"0000001001","phone":"3000001001","email":"carlos.demo@example.test","type":"Ahorros","balance":525000,"createdAt":"2026-01-12T09:00:00.000Z"}
+  ],
+  "transactions": [
+    {"text":"Transferencia de $750.000 de cuenta 1006 a cuenta 1005","amount":-750000,"date":"2026-01-18T15:40:00.000Z","kind":"transfer","customerName":"Santiago Herrera Gil","document":"0000001006","phone":"3000001006","email":"santiago.demo@example.test","reference":"DEMO-001","notes":"Registro ficticio de demostración","accountId":"1006","destinationId":"1005"},
+    {"text":"Depósito de $1.200.000 en cuenta 1001","amount":1200000,"date":"2026-01-18T14:20:00.000Z","kind":"deposit","customerName":"Carlos Rojas","document":"0000001001","phone":"3000001001","email":"carlos.demo@example.test","reference":"DEMO-002","notes":"Registro ficticio de demostración","accountId":"1001","destinationId":""},
+    {"text":"Solicitud prioritaria (Nivel 1) registrada para Laura Sofía Rodríguez","amount":0,"date":"2026-01-17T11:10:00.000Z","kind":"priority"},
+    {"text":"Cuenta 1008 creada para Andrés Felipe Vargas","amount":0,"date":"2026-01-12T09:00:00.000Z","kind":"account"},
+    {"text":"Cuenta 1007 creada para Camila Fernanda Ortiz","amount":0,"date":"2026-01-11T09:00:00.000Z","kind":"account"}
+  ],
+  "turns": [
+    {"number":1,"client":"Juan Pérez (demo)","service":"Caja"},
+    {"number":2,"client":"María Ruiz (demo)","service":"Créditos"},
+    {"number":3,"client":"Pedro Gómez (demo)","service":"Ahorros"},
+    {"number":4,"client":"Ana Torres (demo)","service":"Caja"}
+  ],
+  "priorities": [
+    {"client":"Laura Sofía Rodríguez (demo)","service":"Atención empresarial","level":1},
+    {"client":"Carlos Díaz (demo)","service":"Banca digital","level":2},
+    {"client":"María López (demo)","service":"Caja","level":3},
+    {"client":"Pedro Mora (demo)","service":"Ahorros","level":4}
+  ],
+  "bTree": [1001,1002,1004,1005,1007,1008],
+  "directed": [],
+  "undirected": []
+}

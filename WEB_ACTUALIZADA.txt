@@ -1,0 +1,3 @@
+# Actualizado
+
+La página web ahora incluye cuentas, operaciones bancarias, turnos FIFO, cola prioritaria, historial LIFO, árbol binario de búsqueda, árbol B y grafos dirigido/no dirigido.
